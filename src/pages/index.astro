@@ -1,0 +1,120 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SocialIcon from '../components/SocialIcon.astro';
+import TechBadge from '../components/TechBadge.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+---
+
+<Layout title="Jawuil Pineda - Perfil">
+  <main class="max-w-4xl mx-auto p-8 pt-16">
+    <!-- Header Section -->
+    <section class="text-center mb-12">
+      <h1 class="text-5xl font-extrabold text-text mb-2 tracking-tight">
+        Jawuil Pineda
+      </h1>
+      <p class="text-xl text-text-secondary mb-4 font-light">
+        Desarrollador Full-Stack | Indie Dev/Hacker
+      </p>
+      <p class="text-lg text-accent font-medium italic">
+        "Código creativo, resultados reales."
+      </p>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="mb-12 flex flex-col items-center">
+      <div class="flex justify-center space-x-6 mb-8">
+        <SocialIcon
+          href="https://www.linkedin.com/in/jawuilp/"
+          label="LinkedIn"
+        />
+        <SocialIcon
+          href="https://www.instagram.com/jawuil.p/"
+          label="Instagram"
+        />
+        <SocialIcon href="https://www.tiktok.com/@jawuilp" label="TikTok" />
+        <SocialIcon
+          href="https://www.threads.com/@jawuil.p"
+          label="Threads"
+        />
+      </div>
+      <a
+        href="https://jawuilp.netlify.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-accent text-primary px-8 py-3 rounded-full text-lg font-bold hover:opacity-90 transition-opacity duration-200 shadow-lg"
+      >
+        Mi Portafolio/Blog
+      </a>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-text mb-6 text-center">Mi Stack</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-secondary p-6 rounded-lg border border-tertiary">
+          <h3 class="text-xl font-semibold text-text mb-4">Lenguajes</h3>
+          <div class="flex flex-wrap gap-2">
+            <TechBadge tech="JavaScript" />
+            <TechBadge tech="Node.js" />
+            <TechBadge tech="PHP" />
+            <TechBadge tech="Python" />
+          </div>
+        </div>
+        <div class="bg-secondary p-6 rounded-lg border border-tertiary">
+          <h3 class="text-xl font-semibold text-text mb-4">Frameworks/Librerías</h3
+          >
+          <div class="flex flex-wrap gap-2">
+            <TechBadge tech="Astro" />
+            <TechBadge tech="React" />
+            <TechBadge tech="Express" />
+            <TechBadge tech="Tailwind CSS" />
+            <TechBadge tech="Flask" />
+            <TechBadge tech="FastAPI" />
+          </div>
+        </div>
+        <div class="bg-secondary p-6 rounded-lg border border-tertiary">
+          <h3 class="text-xl font-semibold text-text mb-4">
+            Plataformas y Herramientas
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <TechBadge tech="Vercel" />
+            <TechBadge tech="Netlify" />
+            <TechBadge tech="Git" />
+            <TechBadge tech="GitHub" />
+            <TechBadge tech="Cloudflare" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+      <h2 class="text-3xl font-bold text-text mb-6 text-center">
+        Proyectos Destacados
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <ProjectCard
+          title="Proyecto Alfa"
+          description="Una aplicación web innovadora que resuelve un problema complejo con una interfaz de usuario intuitiva."
+          imageUrl="https://via.placeholder.com/400x300/161B22/8B949E?text=Proyecto+Alfa"
+          codeUrl="#"
+          demoUrl="#"
+        />
+        <ProjectCard
+          title="Proyecto Beta"
+          description="Una herramienta de productividad construida con las últimas tecnologías para optimizar tu flujo de trabajo."
+          imageUrl="https://via.placeholder.com/400x300/161B22/8B949E?text=Proyecto+Beta"
+          codeUrl="#"
+          demoUrl="#"
+        />
+        <ProjectCard
+          title="Proyecto Gamma"
+          description="Un sistema de gestión de contenido personalizado, diseñado para la escalabilidad y facilidad de uso."
+          imageUrl="https://via.placeholder.com/400x300/161B22/8B949E?text=Proyecto+Gamma"
+          codeUrl="#"
+          demoUrl="#"
+        />
+      </div>
+    </section>
+  </main>
+</Layout>
