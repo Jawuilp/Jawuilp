@@ -36,5 +36,9 @@ Aquí están algunas de las tecnologías con las que me gusta trabajar:
 
 ## Proyectos Destacados
 
+<p align="center">
+  <img src="/public/@accelprompt.jpeg" alt="AccelPrompt Logo" width="200"/>
+</p>
+
 *   **AccelPrompt**: Una herramienta que te ayuda a crear prompts especializados para distintas herramientas de IA.
     *   [¡Optimiza tus Interacciones con IA Ahora!](https://accelprompt.xyz/)
