@@ -34,15 +34,7 @@ Aquí están algunas de las tecnologías con las que me gusta trabajar:
 **Plataformas y Herramientas:**
 `Vercel` `Netlify` `Git` `GitHub` `Cloudflare`
 
-## Proyectos Destacados (Próximamente)
+## Proyectos Destacados
 
-Aunque aún no tengo proyectos estrella definidos para mostrar aquí, estoy trabajando constantemente en nuevas ideas y soluciones. ¡Mantente atento a las actualizaciones!
-
-*   **Proyecto Alfa**: Una aplicación web innovadora que resuelve un problema complejo con una interfaz de usuario intuitiva.
-    *   [Ver Código](#) | [Ver Demo](#)
-
-*   **Proyecto Beta**: Una herramienta de productividad construida con las últimas tecnologías para optimizar tu flujo de trabajo.
-    *   [Ver Código](#) | [Ver Demo](#)
-
-*   **Proyecto Gamma**: Un sistema de gestión de contenido personalizado, diseñado para la escalabilidad y facilidad de uso.
-    *   [Ver Código](#) | [Ver Demo](#)
+*   **AccelPrompt**: Una herramienta que te ayuda a crear prompts especializados para distintas herramientas de IA.
+    *   [¡Optimiza tus Interacciones con IA Ahora!](https://accelprompt.xyz/)
