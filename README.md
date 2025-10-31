@@ -19,7 +19,7 @@ Soy un apasionado desarrollador Full-Stack con experiencia en la creación de so
 
 ---
 
-🔗 Visita mi Portafolio/Blog: [jawuilp.netlify.app](https://jawuilp.netlify.app/)
+🔗 Visita mi Portafolio/Blog: [jawuilp.netlify.app](https://jawuil.dev)
 
 ## Mi Stack Tecnológico
 
