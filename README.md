@@ -19,7 +19,7 @@ Soy un apasionado desarrollador Full-Stack con experiencia en la creación de so
 
 ---
 
-🔗 Visita mi Portafolio/Blog: [jawuilp.dev](https://jawuil.dev)
+🔗 Visita mi Portafolio/Blog: [jawuil.dev](https://jawuil.dev)
 
 ## Mi Stack Tecnológico
 
